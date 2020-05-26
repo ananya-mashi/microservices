@@ -1,8 +1,9 @@
 package com.ananya.microservices.netflixeurekanamingserver;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.cloud.netflix.eureka.server.*;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
+@EnableEurekaServer
 @SpringBootApplication
 public class NetflixEurekaNamingServerApplication {
 
